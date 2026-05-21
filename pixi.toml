@@ -24,7 +24,7 @@ jupyter = { cmd = "jupyter lab" }
 
 [target.unix.tasks]
 update-pc-files = { cmd = "python update_pc_files.py", cwd = "installation" }
-clone-modflow = "rm -rf modflow6/ && git clone https://github.com/MODFLOW-USGS/modflow6.git"
+clone-modflow = "rm -rf modflow6/ && git clone https://github.com/MODFLOW-ORG/modflow6.git"
 setup-modflow = { cmd = "PKG_CONFIG_PATH=$PIXI_PROJECT_ROOT/.pixi/envs/default/lib/pkgconfig && rm -rf builddir && meson setup builddir -Ddebug=false -Dextended=true --prefix=$PIXI_PROJECT_ROOT/.pixi/envs/default/", cwd = "modflow6" }
 install-modflow = { cmd = "meson install -C builddir", cwd = "modflow6" }
 test-modflow = { cmd = "meson test --verbose --no-rebuild -C builddir", cwd = "modflow6" }
@@ -39,8 +39,8 @@ obtain-modflow = { depends-on = [
 ] }
 
 [target.win-64.tasks]
-clone-modflow-win = { cmd = "rm -rf modflow6; git clone https://github.com/MODFLOW-USGS/modflow6.git" }
-download-modflow-win = { cmd = "python -c 'from urllib.request import urlretrieve; urlretrieve(\"https://github.com/MODFLOW-USGS/modflow6-nightly-build/releases/download/20251007/win64ext.zip\", \"win64ext.zip\")'" , outputs=["win64ext.zip"]}
+clone-modflow-win = { cmd = "rm -rf modflow6; git clone https://github.com/MODFLOW-ORG/modflow6.git" }
+download-modflow-win = { cmd = "python -c 'from urllib.request import urlretrieve; urlretrieve(\"https://github.com/MODFLOW-ORG/modflow6-nightly-build/releases/download/20251007/win64ext.zip\", \"win64ext.zip\")'" , outputs=["win64ext.zip"]}
 unzip-modflow-win = { cmd = "python -c 'import shutil; shutil.unpack_archive(\"win64ext.zip\", \"win64ext\")'" }
 install-modflow-win = {cmd = "python -c 'import shutil; import glob; shutil.copytree(glob.glob(\"win64ext/**/bin\")[0], \".pixi/envs/default/bin\", dirs_exist_ok=True)'" }
 obtain-modflow = { depends-on = [
