@@ -62,7 +62,7 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|
-| 8:30 AM  |Solute and Heat Transport        | Langevin/Panday            |
+| 8:30 AM  |Solute and Heat Transport        | Langevin/Provost/Panday    |
 | 9:30 AM  |Variable Density Flow            | Langevin/Panday            |
 |10:30 AM  |--*BREAK*--                      | --                         |
 |10:45 AM  |XT3D                             | Provost                    |

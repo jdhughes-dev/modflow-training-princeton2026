@@ -65,16 +65,19 @@ pyvista = "==0.48"
 ipywidgets = "*"
 
 # flopy
+ffmpeg = "*"
+geopandas = "*"
+h5py = "*"
 pymetis = "*"
+pyshp = "*"
 rasterio = "*"
 rasterstats = "*"
-geopandas = "*"
-pyshp = "*"
-ffmpeg = "*"
+xmipy = "*"
 
 [pypi-dependencies]
 modflow-devtools = { git = "https://github.com/MODFLOW-ORG/modflow-devtools.git", extras = ["dfn"] }
 flopy = { git = "https://github.com/modflowpy/flopy.git" }
+modflowapi = { git = "https://github.com/MODFLOW-ORG/modflowapi.git", branch = "develop" }
 
 [target.unix.dependencies]
 # build dependencies
