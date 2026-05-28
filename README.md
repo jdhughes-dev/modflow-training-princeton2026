@@ -6,8 +6,8 @@ Training materials for the [MODFLOW 6 and FloPy workshop](https://igwmc.princeto
 Presentations from the workshop will be provided as a GitHub Release, and can be accessed [here](https://github.com/langevin-usgs/modflow-training-princeton2026/releases).
 
 ## Location and Dates
-* Princeton University
-* June 5-6, 2026
+* Princeton University.  The course will be in the [Computer Science Building](https://campusmap.princeton.edu/poi/232/computer-science), Room 105. The address for the building is 35 Olden Street. Enter from McCosh Walk (not Olden St) as that is the most direct route to Room 105. 
+* June 5-6, 2026, 8:30 AM to 5:00 PM
 
 ## Course Description
 MODFLOW 6 is the current version of MODFLOW released and supported by the USGS.  The program is under active development by the short course instructors and the broader hydrologic community.  This short course introduces participants to MODFLOW 6 and its growing simulation capabilities.  For each topic included in the short course, there will be a short lecture on the underlying concepts and implementation followed by a live demonstration.  Live demonstrations will use the Python language, Jupyter Notebooks, and the FloPy Package to create, run, and post-process MODFLOW 6 simulations. 
@@ -55,7 +55,7 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 | 1:45 PM  |Parallel MODFLOW                 |Russcher/Hughes/Larsen      |
 | 2:45 AM  |--*BREAK*--                      | --                         |
 | 3:00 PM  |Advanced Flow Packages           |Hughes                      |
-| 4:00 PM  |Particle Tracking in MODFLOW 6   |Bonelli/Provost                      |
+| 4:00 PM  |Particle Tracking in MODFLOW 6   |Bonelli/Provost             |
 | 5:00 PM  |ADJOURN                          |                            |
 
 ### Saturday, June 6, 2026
@@ -63,7 +63,7 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|
 | 8:30 AM  |Solute and Heat Transport        | Langevin/Provost/Panday    |
-| 9:30 AM  |Variable Density Flow            | Langevin/Panday            |
+| 9:30 AM  |Variable Density Flow            | Langevin                   |
 |10:30 AM  |--*BREAK*--                      | --                         |
 |10:45 AM  |XT3D                             | Provost                    |
 |11:30 AM  |MODFLOW API                      | Hughes/Russcher/Larsen     |
