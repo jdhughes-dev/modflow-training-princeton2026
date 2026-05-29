@@ -23,6 +23,7 @@ install = { depends-on = [
 
 # run jupyter lab
 jupyter = { cmd = "jupyter lab" }
+code = { cmd = "code ." }
 
 [target.unix.tasks]
 update-pc-files = { cmd = "python update_pc_files.py", cwd = "installation" }
