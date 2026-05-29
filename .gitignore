@@ -13,3 +13,9 @@ win64ext*
 *.lst
 *.cbc
 *.grb
+*.csv
+*.ucn
+*.bin
+
+
+examples/notebooks/models/
