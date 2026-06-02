@@ -22,4 +22,3 @@ win64ext*
 .vscode/
 examples/notebooks/models/
 examples/notebooks/.figures/
-examples/notebooks/ff-netcdf/
